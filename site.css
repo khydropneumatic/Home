@@ -70,6 +70,10 @@ article {
   width: 75%;
 }
 
+.columns {
+  display: flex;
+}
+
 @media only screen and (min-width: 768px) {
   main {
     display: flex;
@@ -79,4 +83,46 @@ article {
     margin-left: 2%;
     margin-top: 1%;
   }
+
+  .columns-desktop {
+    display: flex;
+  }
+}
+
+/* Products */
+
+.products {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  border: solid 1px #ccc;
+}
+
+.products img {
+  width: 100%;
+}
+
+.products .titile {
+  font-weight: bold;
+}
+
+.products .columns {
+  width: 100%;
+}
+
+.products .price {
+  text-align: right;
+}
+
+.products .columns div {
+  width: 50%;
+}
+
+.products button {
+  background-color: burlywood;
+  padding: 10px;
+  border: solid 1px burlywood;
+  border-radius: 5%;
+  color: #fff;
 }
