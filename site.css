@@ -115,9 +115,9 @@ article {
   text-align: right;
 }
 
-.products .columns div {
-  width: 50%;
-}
+/*.products .columns div {
+  width: 50%; --To be inclulded if price is required
+}*/
 
 .products button {
   background-color: burlywood;
