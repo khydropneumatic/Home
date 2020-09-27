@@ -9,7 +9,8 @@ body {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: beige;
+  /*background-color: beige;*/ /**/
+  background-color: #f7fcb9;
 }
 
 p {
@@ -22,13 +23,14 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: burlywood;
+  /*background-color: burlywood;*/
+  background-color: #fade52;
   padding: 10px;
 }
 
 nav a:visited,
 nav a:link {
-  color: cornsilk;
+  /*color: cornsilk;*/
   text-decoration: none;
 }
 
@@ -53,7 +55,8 @@ main {
 footer {
   display: block;
   width: 100%;
-  background-color: burlywood;
+  /*background-color: burlywood;*/
+  background-color: #fade52;
   padding: 15px;
 }
 
@@ -120,9 +123,10 @@ article {
 }*/
 
 .products button {
-  background-color: burlywood;
+  /*background-color: burlywood;*/
+  background-color: #fade52;
   padding: 10px;
   border: solid 1px burlywood;
   border-radius: 5%;
-  color: #fff;
+  /*color: #fff;*/
 }
